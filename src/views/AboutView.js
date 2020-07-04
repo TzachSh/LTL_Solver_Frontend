@@ -42,21 +42,21 @@ export function AboutView() {
                 <CardContent>
                 <Typography variant="subtitle2" gutterBottom>
                 Our project is based on <Link target='_blank' href='https://arxiv.org/pdf/1401.5677.pdf'>Fast LTL Satisfiability Checking by SAT Solvers</Link> by:
-                Jianwen Li, Geguang Pu, Lijun Zhang, Moshe Y. Vardi and Jifeng He, Rice University
+                Jianwen Li, Geguang Pu, Lijun Zhang, Moshe Y. Vardi and Jifeng He, Rice University.
+            </Typography>
+            <Typography variant="subtitle2" gutterBottom>
+                <b>Thanks a lot to our supervisor: Dr.Sarai Sheinvald.</b>
             </Typography>
             </CardContent>
         </Card>
             <Card variant='outlined' className={classes.cardSpacing}>
-                <CardHeader title='Students' />
+                <CardHeader title='Student' />
                 <Divider />
                 <CardContent>
                 <Grid container direction="row" alignItems="center" justify="center" spacing={1}>
                     <Grid item>
-                        {renderAvatar('Tzach Sheratzky', 'https://scontent.fhfa1-1.fna.fbcdn.net/v/t1.0-9/69874716_10157402268360242_5216856136023539712_n.jpg?_nc_cat=109&_nc_sid=85a577&_nc_ohc=m0qeORD0OvAAX8uonns&_nc_ht=scontent.fhfa1-1.fna&oh=1bf42442acc1fc6d99509c804a715f2a&oe=5EC1E328')}
-                    </Grid>
-                    <Grid item>
-                        {renderAvatar('Tamir Alalouf', 'https://media-exp1.licdn.com/dms/image/C4D03AQFKxQTHRCJMLg/profile-displayphoto-shrink_800_800/0?e=1593043200&v=beta&t=BzsnWY-RbZlOasJ3aLSAzqiJy76mF_fAK-ldRFRlaww')}
-                    </Grid>
+                        {renderAvatar('Tzach Sheratzky', 'https://media-exp1.licdn.com/dms/image/C4D03AQH6_v0MEV1K6g/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=NjsJC16HbZtYtajtAw0oRQsvSfyrcUMSMWe5l0wFWfI')}
+                    </Grid>                    
                 </Grid>
                 </CardContent>
             </Card>
